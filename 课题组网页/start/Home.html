@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .head{
+            width: 100%;
+            height: 360px;
+            display: flex;
+            border-bottom: 1px solid black;
+        }
+        .content{
+            width: 100%;
+            height: 120px;
+            border-bottom: 1px solid black;
+        }
+        .correspondence{
+            width: 100%;
+            height: 250px;
+            border-bottom: 1px solid black;
+        }
+        .news{
+            width: 100%;
+            border-bottom: 1px solid black;
+        }
+        .researsh{
+            width: 100%;
+            height: 90px;
+            border-bottom: 1px solid black;
+        }
+        .activities{
+            width: 100%;
+            height: 90px;
+            border-bottom: 1px solid black;
+        }
+        .interests{
+            width: 100%;
+            height: 90px;
+            border-bottom: 1px solid black;
+        }
+        .researsh p{
+            font-weight: normal;
+        }
+        .foot{
+            width: 100%;
+            height: 10px;
+            font-weight: lighter;
+        }
+        #left {
+            width: 20%;
+            height: 85%;
+            margin-top: 20px;
+            margin-right: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #left img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+        }
+        #mid{
+            width: 30%;
+            
+        }
+        #right{
+            width: 50%;
+            
+        }
+        a {  
+            color: blue; /* 字体颜色为蓝色 */  
+            text-decoration: underline; /* 加下划线 */  
+        }
+        #school_log{
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        li {  
+            margin-bottom: 15px; /* 添加10像素的行间距 */  
+            font-weight: bold;
+        }
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+        }  
+        
+        th, td {  
+            padding: 8px;  
+            text-align: left;  
+            font-size: 14px;
+        }  
+        .td_bold{
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div id="left" >
+            <img src="../imgs/wr.jpg">
+        </div>
+        <div id="mid">
+            <h2>Rui WANG</h2>
+            <h2>(王睿)</h2>
+            <p style="font-weight: bold; ">Lecturer</p>
+            <p></p>
+            <a href="https://cs.njupt.edu.cn/" target="_blank" >School of Computer Science and Engineering,</a>
+            <p></p>
+            <p></p>
+            <p></p>
+            <a href="https://m.njupt.edu.cn/_s5/_t44/main.psp"target="_blank">Nanjing University of Posts and Telecommunications</a>,china
+            <p></p>
+            <p></p>
+           <!--  <p style="color: rgb(126, 71, 4);">[Academic Profile]:</p>
+            <a href="#">Google Scholar</a>&nbsp;&nbsp;<a href="#">DBLP</a>&nbsp;&nbsp;<a href="#"> Semantic Scholar</a> -->
+        </div>
+        <div id="right">
+            <div id="school_log" style=" width: 200px; height: 200px; overflow: hidden;">  
+                <img src="../imgs/log.png" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">  
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div style="padding-top: 10px;">
+            <ul>
+                <li>Looking for highly motivated undergraduate or postgraduate students aiming to perform Bachelor or MSc thesis or to enroll in a  program (<a href="mailto:rui_wang@njupt.edu.cn">contact me</a>)</li>
+                <li>欢迎与我联系申请 <a href="https://m.njupt.edu.cn/_s5/_t44/main.psp"target="_blank">南京邮电大学</a> 全职研究生 (<a href="mailto:rui_wang@njupt.edu.cn">contact me</a>)</li>
+                <!-- <li>欢迎 少数民族高层次骨干人才计划、对口支援西部地区高校定向培养研究生计划 考生联系报考硕士研究生 (<a href="mailto:rui_wang@njupt.edu.cn">contact me</a>)</li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="interests">
+        <h4>Research Interests:</h4>
+        <div style="padding-left: 20px;">My research interests include natural language processing, text mining, and topic model group.</div>
+
+    </div>
+ <div class="news">
+        <h4>News:</h4>
+            <ul>
+                <li>2024.07:  🎉🎉 One paper on “SAR object detection” is accepted by IEEE JSTARS.</li>
+                <li>2024.05:  🎉🎉 One paper on “Remote sensing scene classification” is accepted by IEEE TGRS.</li>
+                <li>2024.05:  🎉🎉 One paper on “SAR image classification” is accepted by IEEE TAES.</li>
+                <li>2024.03:  🎉🎉 One paper on “SAR image classification” is accepted by IEEE TAES.</li>
+                <li>2024.02:  🎉🎉 One paper on “HSI and LiDAR classification” is accepted by IEEE JSTARS.</li>
+            </ul>
+    </div>
+    <div class="correspondence">
+        <h4>Correspondence:</h4>
+        <div>
+            <table>  
+                <tr>  
+                    <td class="td_bold">Mail: </td>  
+                    <td>Rui WANG</td>  
+                    <td class="td_bold">Office:</td>  
+                    <td>535, 424, Computer Building, Xianlin Campus of Nanjing University of Posts and Telecommunications. </td>  
+            
+                </tr>  
+            
+                <tr>  
+            
+                    <td></td>  
+            
+                    <td>School of Computer Science</td>  
+            
+                    <td class="td_bold">Tel:</td>  
+            
+                    <td>+86-25-5209-0869</td>  
+            
+                </tr>  
+            
+                <tr>  
+            
+                    <td></td>  
+            
+                    <td>Nanjing University of Posts and Telecommunications</td>  
+            
+                    <td class="td_bold">Fax:</td>  
+            
+                    <td>+86-25-5209-0869</td>  
+            
+                </tr>  
+            
+                <tr>  
+            
+                    <td></td>  
+            
+                    <td>No.9, Wenyuan Road, Yadong New District </td>  
+            
+                    <td class="td_bold">URL:</td>  
+            
+                    <td><a>	http://palm.seu.edu.cn/zhangml/</a></td>  
+            
+                </tr>  
+            
+                <tr>  
+            
+                    <td></td>  
+            
+                    <td>Nanjing City zip code: 210023</td>  
+            
+                    <td class="td_bold">Email:</td>  
+            
+                    <td>rui_wang@njupt.edu.cn</td>  
+            
+                </tr>  
+    
+            </table>  
+        </div>
+    </div>
+    <div class="activities">
+        <h4>Activities:</h4>
+    </div>
+    <div class="researsh">
+        <p>Currently, I am a lecturer of Computer Science at Nanjing University of Posts and Telecommunications. My research interests cover Text Mining, Natural Language Processing, especially on Adversarial Topic Modeling and Neural Topic Modeling. Before join in NJUPT, I got the Ph.D degree from PAttern Learning and Mining (PALM) Lab at Southeast University supervised by Prof. Deyu Zhou. Evolutionary Computation was the research area at the stage of my studying for Master.</p>
+        <!-- <p></p>
+        <p>For related information and resources, please navigate via the links in the left bar. <a href="mailto:rui_wang@njupt.edu.cn">contact me</a> if you have any problems there.</p> -->
+    </div>
+    <div class="foot">
+        <p>Last Modified: 2024-05-12</p>
+    </div>
+</body>
+</html>
